@@ -1,16 +1,108 @@
-# React + Vite
+# 🚗 Automobile E‑Commerce Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[🔗 Live Website](https://ecommerce-automobile-dashboard.vercel.app) • [📁 GitHub Repository](https://github.com/abhi041540/Ecommerce-automobile-Dashboard)
 
-Currently, two official plugins are available:
+**Automobile E‑Commerce Dashboard** is a modern, enterprise-grade web application designed for automobile businesses. It streamlines **inventory management, staff operations, financial tracking, and secure communication**. With features like **low stock alerts, worker-driven stock updates, staff salary management, and JWT authentication**, it ensures efficiency, transparency, and security.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📦 **Inventory Management**
+  - Real-time automobile stock tracking
+  - Low stock alerts & notifications
+  - Worker-driven stock price updates after sales
 
-## Expanding the ESLint configuration
+- 👨‍💼 **Staff Management**
+  - Staff activity tracking
+  - Leave & salary management
+  - Role-based access control
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💰 **Financial Insights**
+  - Daily profit & loss calculation
+  - Revenue & expense dashboards
+  - Exportable reports
+
+- 🔐 **Secure Communication**
+  - JWT Auto Authentication
+  - Encrypted TCP/IP WebSocket connections
+  - Real-time updates across modules
+
+- 🎨 **User Experience**
+  - Responsive UI with Tailwind CSS & Bootstrap
+  - Optimized performance with React + Vite
+  - Intuitive dashboards & modern design system
+
+---
+
+## 🖼️ Visual Preview
+
+### 🔑 Login Page
+![Login Page](assets/v1.png)  
+Secure entry point for staff and owners with JWT authentication.
+
+---
+
+### 📝 Sign Up Page
+![Sign Up Page](assets/v2.png)  
+New staff or owners can register securely with role-based access.
+
+---
+
+### 📊 Owner Dashboard
+![Owner Dashboard](assets/v3.png)  
+Centralized view for owners to monitor sales, staff activity, and inventory health.
+
+---
+
+### 📦 Owner Inventory
+![Owner Inventory](assets/v4.png)  
+Detailed inventory management with stock levels, low-stock alerts, and worker updates.
+
+---
+
+### ⚙️ Owner Settings
+![Owner Settings](assets/v5.png)  
+Configuration panel for managing staff roles, salaries, and system preferences.
+
+---
+
+### 👨‍🔧 Worker Dashboard
+![Worker Dashboard](assets/v6.png)  
+Workers can view their sales, update stock prices, and track performance.
+
+---
+
+### 📦 Worker Inventory Management
+![Worker Inventory Management](assets/v7.png)  
+Workers update stock count after sales, enabling accurate tracking of sales and stock levels.
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology            |
+|-------------|------------------------|
+| Frontend    | React.js, Vite, Tailwind CSS, Bootstrap |
+| Backend     | Node.js, Express       |
+| Authentication | JWT, auth0           |
+| Communication | WebSockets (TCP/IP)  |
+| Hosting     | Vercel, Docker, GCP   |
+| Database    | (Add your DB: PostgreSQL / MongoDB) |
+
+---
+
+## 🚀 Getting Started
+
+To run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/abhi041540/Ecommerce-automobile-Dashboard
+cd ecommerce-automobile-dashboard
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
