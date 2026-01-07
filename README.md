@@ -88,7 +88,7 @@ Workers update stock count after sales, enabling accurate tracking of sales and 
 | Authentication | JWT, auth0           |
 | Communication | WebSockets (TCP/IP)  |
 | Hosting     | Vercel, Docker, GCP   |
-| Database    | (Add your DB: PostgreSQL / MongoDB) |
+| Database    | PostgreSQL / MongoDB |
 
 ---
 
